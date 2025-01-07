@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.myContent{
+  background-color: aliceblue;
+  margin:0px;
+}
+.header{
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.header-title{
+  font-weight: 700;
+  font-size: 3em;
+  color: hsla(250, 100%, 30%);
+  padding: 10px;
+ }
+.header-text{
+  font-style: italic;
+  font-size: 1em;
+  color: hsla(230, 60%, 60%);
+}
+.menu-item{
+  font-family: Arial, sans-serif; 
+}
+.footer{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  color: hsla(230, 70%, 75%);
+  padding: 30px;
+}
+.packages-item{
+  font-family: Arial, sans-serif;
+  color: hsl(200, 20%, 25%);
+}
