@@ -13,12 +13,6 @@ function Header(){
             and we’ll get back to you as soon as we can.
           </p>
         </div>
-
-
-/* <div className="header">
-<h1 className="header-title">Package Tracker</h1>
-<p className="eader-text">We are the best package tracking service online!</p>
-</div> */
     )
 }
 

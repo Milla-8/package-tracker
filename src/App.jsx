@@ -5,8 +5,9 @@ import React, { useEffect, useState } from 'react';
 
 
 function App() {
-    const [Data, setData] = useState(null);
+    const [Data, setData] = useState(null); /* Method for setting a value */
 
+    /* Try to set/load data from API and catch errors */
     useEffect(() => {
       const fetchData = async () => {
         try {
